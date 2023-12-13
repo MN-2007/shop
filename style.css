@@ -1,0 +1,33 @@
+header {
+    background-color: rgb(235, 237, 237);
+}
+
+h1 {
+    color: rgb(0, 106, 255);
+    font-size: 30px;
+}
+
+.name {
+    padding: 5px;
+    margin-top: auto;
+}
+
+img {
+    width: 130px;
+    margin-left: 80%;
+}
+
+.links {
+    padding-bottom: 5px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.links>a {
+    color: rgb(1, 128, 255);
+    padding: 30px;
+    align-items: center;
+    text-decoration: none;
+
+}
