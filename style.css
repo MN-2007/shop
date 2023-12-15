@@ -7,6 +7,7 @@ header {
 h1 {
     color: rgb(0, 79, 190);
     font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .name {
@@ -22,7 +23,7 @@ h1 {
 .links {
     padding-top: 35px;
     padding-left: 35px;
-    font-size: 22px;
+    font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     margin-right: 380px;
@@ -30,7 +31,7 @@ h1 {
 
 .links>a {
     color: rgb(1, 128, 255);
-    padding: 30px;
+    padding: 25px;
     text-decoration: none;
 
 }
@@ -43,6 +44,9 @@ h1 {
     height: 518px;
     padding-top: 10px;
     padding-bottom: 10px;
+    padding-left: 10px;
+    border-top-right-radius: 2em;
+    border-bottom-right-radius: 2rem;
 }
 
 p {
@@ -59,8 +63,42 @@ p {
 .b3 {
     font-size: 40px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(0, 128, 255);
-    background-color: rgb(232, 232, 232);
+    color: rgb(232, 232, 232);
+    background-color: rgb(0, 128, 255);
     text-align: center;
+
+}
+
+.card1 {
+    width: 370px;
+    padding-right: 10px;
+}
+
+.card2 {
+    width: 370px;
+    padding-right: 10px;
+}
+
+.card3 {
+    width: 370px;
+    padding-right: 10px;
+}
+
+.card4   {
+    width: 370px;
+    padding-right: 10px;
+}
+
+#txt1 {
+    font-size: 15px;
+}
+
+#prd-list {
+    display: flex;
+    display: inline-flex;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding: 10px;
 }
 
